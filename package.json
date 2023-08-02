@@ -1,0 +1,33 @@
+{
+  "name": "rebasic",
+  "version": "1.0.0",
+  "description": "Basic components for making a markwhen-based blog",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "vite --port=5180",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-when/rebasic.git"
+  },
+  "author": "Rob Koch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mark-when/rebasic/issues"
+  },
+  "homepage": "https://github.com/mark-when/rebasic#readme",
+  "dependencies": {
+    "@markwhen/parser": "^0.9.1",
+    "luxon": "^3.3.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/tsconfig": "^0.4.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
+  }
+}
